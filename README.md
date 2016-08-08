@@ -1,4 +1,7 @@
 ##Introduction to Angular
+While a basic level of HTML/CSS and JavaScript and an understanding of front-end frameworks will be helpful to better understand this lesson, but it is not necessary to just follow along.
+
+We're going to cover some basic information about angular and how it works and then we're going to play around with and modify an existing angular application with basic functionality.
 
 ##What is Angular?
 AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write.
@@ -35,6 +38,8 @@ Directives are Angular's way of extending HTML. Angular uses directives to add f
 
 At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler to attach a specified behavior to that DOM element or even transform the DOM element and its children.
 
+In addition to the built-in-directives it is also possible to build custom directives, or to utilize custom directives built by other developers.
+
 [AngularJS Docs on directives](https://docs.angularjs.org/api/ng/directive)
 
 ###What is scope?
@@ -51,21 +56,20 @@ When a new controller is created, Angular automatically gives it a brand new $sc
 
 [AngularJS Docs on controllers](https://docs.angularjs.org/guide/controller)
 
-**This example has a simple app structure of only three files:**
-* index.html
-* app.js
-* style.css
-* Templates
-  * main.html
-  * profile.html
-
-Take a look at the files individually or load the app to view its functionality.
-
+###Looking at the Demo Project
 **To view this demo project on your computer:**
 * clone this repo (fork if you like)
 * cd into the folder
 * run `python -m SimpleHTTPServer 8000`
 * go to `http://localhost:8000/#/` in your browser
+
+**See if you can identify the topics we covered above in the example project**
+
+**Extras Built into this Example:**
+In addition to the basics reviewed above, this example includes:
+* Materialize CSS (using angular-materialize)
+* ui.router (replacing the ngRoute built-in-directive)
+  * including nested views
 
 
 **References for this article:**
