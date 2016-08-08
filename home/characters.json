@@ -1,0 +1,15 @@
+[{
+  "firstName":"Harry",
+  "lastName":"Potter",
+  "description":"Voldermort tried to kill him"
+},
+{
+  "firstName":"Ginny",
+  "lastName":"Weasley",
+  "description":"Loves Harry"
+},
+{
+  "firstName":"Hermione",
+  "lastName":"Granger",
+  "description":"the smartest ever"
+}]
