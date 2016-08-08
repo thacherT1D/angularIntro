@@ -1,9 +1,23 @@
 <div class="container">
-  <h3>{{title}}</h3>
+  <div input-field>
+    <h3>{{title}}</h3>
+    <input type="text" ng-model="title" length="40">
+  </div>
+  <p><strong>This is just a paragraph of text</strong></p>
   <p>
     Full moon Whomping Willow three turns should do it lemon drops. Locomotor trunks owl treats that will be 50 points, Mr. Potter. Witch Weekly, he will rise again and he will come for us. Fenrir Grayback horseless carriages ‘zis is a chance many would die for!
   </p>
-  <div ng-repeat="character in cast">
-    {{character.firstName}} {{character.lastName}}
+  <p><strong>Using ng-repeat we are able to show all the characters from an array or JSON file</strong></p>
+  <p><strong>Characters:</strong></p>
+  <div class="row" ng-repeat="character in cast">
+    <div class="col s2">
+      <img materialboxed class="materialboxed responsive-img" width="150" src="{{character.image}}">
+    </div>
+    <div class="col s10">
+      <p><strong>First Name: </strong>{{character.firstName}}</p>
+      <p><strong>Last Name: </strong>{{character.lastName}}</p>
+      <p><strong>Description: </strong>{{character.description}}</p>
+    </div>
   </div>
+
 </div>

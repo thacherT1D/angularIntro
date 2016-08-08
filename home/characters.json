@@ -1,15 +1,18 @@
 [{
   "firstName":"Harry",
   "lastName":"Potter",
-  "description":"Voldermort tried to kill him"
+  "description":"Voldermort tried to kill him",
+  "image":"http://vignette1.wikia.nocookie.net/harrypotter/images/c/c1/Harry%2Bpotter-Harry_Potter_HP4_01.jpg/revision/latest?cb=20120207172914"
 },
 {
   "firstName":"Ginny",
   "lastName":"Weasley",
-  "description":"Loves Harry"
+  "description":"Loves Harry",
+  "image":"http://vignette3.wikia.nocookie.net/harrypotter/images/9/9c/18171450px-Ginny_weasley.jpg/revision/latest?cb=20090803235026"
 },
 {
   "firstName":"Hermione",
   "lastName":"Granger",
-  "description":"the smartest ever"
+  "description":"the smartest ever",
+  "image":"http://www2.hawaii.edu/~cdeguzma/HPWebsite/images/hermione.jpg"
 }]
