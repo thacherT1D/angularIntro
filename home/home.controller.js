@@ -12,7 +12,7 @@
     HomeService.getCast().then(function(cast) {
       $scope.cast = cast;
     });
-    $scope.title = 'change this title with two-way data binding';
+    $scope.title = 'the Potter-verse';
   }
 
 })();
