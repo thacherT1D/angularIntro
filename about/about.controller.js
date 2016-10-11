@@ -1,6 +1,5 @@
 angular.module('app')
 
   .controller('aboutCtrl', ['$scope', function($scope) {
-    $scope.title = "About";
-    $scope.things = ['thing','ball','goose'];
+    $scope.title = "This is a new about title";
   }])
