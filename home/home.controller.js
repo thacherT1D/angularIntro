@@ -13,7 +13,6 @@
       $scope.cast = cast;
     });
     $scope.title = 'the Potter-verse';
-    $scope.name = 'Lee';
   }
 
 })();
