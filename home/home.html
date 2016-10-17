@@ -11,12 +11,11 @@
   <p><strong>Characters:</strong></p>
   <div class="row" ng-repeat="character in cast">
     <div class="col s2">
-      <img materialboxed class="materialboxed responsive-img" width="150" src="{{character.image}}">
+      <img materialboxed class="materialboxed responsive-img" width="150" src="{{character.image_url}}">
     </div>
     <div class="col s10">
-      <p><strong>First Name: </strong>{{character.firstName}}</p>
-      <p><strong>Last Name: </strong>{{character.lastName}}</p>
-      <p><strong>Description: </strong>{{character.description}}</p>
+      <p><strong>First Name: </strong>{{character.first_name}}</p>
+      <p><strong>Last Name: </strong>{{character.last_name}}</p>
     </div>
   </div>
 
